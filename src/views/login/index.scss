@@ -1,0 +1,51 @@
+.layout {
+    height: 100%;
+
+    .header {
+        display    : flex;
+        align-items: center;
+
+        .logo {
+            position: relative;
+            left    : 15%;
+
+            img {
+                width : 115px;
+                height: 40px;
+            }
+        }
+    }
+
+    .main {
+        position         : relative;
+        padding-top      : 15%;
+        width            : 100%;
+        display          : flex;
+        justify-content  : center;
+        place-items      : flex-start;
+        background       : url(~@static/images/kxhk-bg.png);
+        background-size  : 100% 100%;
+        background-repeat: no-repeat;
+
+        .login-box {
+            width: 480px;
+
+            .code {
+                cursor: pointer;
+                height: 30px;
+
+                img {
+                    height: 30px;
+                }
+            }
+
+            .submit {
+                width      : 100%;
+                line-height: 52px;
+                padding    : 0px;
+                font-size  : 18px;
+            }
+        }
+
+    }
+}
